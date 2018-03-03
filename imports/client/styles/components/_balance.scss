@@ -1,0 +1,9 @@
+.balance {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.balance__item {
+  display: flex;
+}

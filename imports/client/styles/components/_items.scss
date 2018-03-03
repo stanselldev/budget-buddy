@@ -1,0 +1,25 @@
+.item {
+  font-size: $base-font-size;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.item__body {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ justify-content: flex-start;
+ flex-basis: 200px;
+}
+
+.item__inner {
+  justify-content: center;
+  border: 1px solid $input-border;
+  display: flex;
+  font-size: $base-font-size;
+  line-height: 2;
+  margin-bottom: $space;
+  padding: $input-spacing;
+  height: 25px;
+  width: 195px;
+}
